@@ -1,0 +1,12 @@
+server:
+  port: 8761 #default port
+spring:
+  application:
+    name: discover-server
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
+
